@@ -1,0 +1,6 @@
+# 统配符
+	* (star) can substitute for exactly one word.    匹配不多不少恰好1个词
+	# (hash) can substitute for zero or more words.  匹配一个或多个词
+# 如:
+	audit.#    匹配audit.irs.corporate或者 audit.irs 等
+    audit.*   只能匹配 audit.irs
